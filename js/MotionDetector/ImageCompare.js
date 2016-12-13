@@ -82,6 +82,7 @@
 
 					if(comparePixel(pixel1Data, pixel2Data) == false) {
 						setTopLeft(x,y);
+						console.log("X: "+x+" Y: "+y);
 						setBottomRight(x,y);
 					}					
 				}
